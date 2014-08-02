@@ -1,0 +1,16 @@
+Needed to compile the compiler MinGW-w64
+
+Check the requirements and if necessary, change Makefile
+
+== Includes
+Setting include paths:
+INCLUDES = -I/path/to/boost/include -I/path/to/openssl/include 
+
+== Libraries
+
+Seting library paths:
+INC_LIBS = -L/path/to/openssl/lib -L/path/to/boost/lib 
+
+* Libraries Windows: ws2_32, gdi32, mswsock, crypt32, cryptui security 
+* Libraries Boost:   boost_log_setup, boost_log, boost_thread, boost_filesystem, boost_system boost_regex, boost_program_options
+* Libraries OpenSSL: ssl, crypto

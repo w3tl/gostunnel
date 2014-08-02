@@ -1,0 +1,1 @@
+certmgr.exe -add -all -c localhost_ca.crt -s ROOT -r localMachine

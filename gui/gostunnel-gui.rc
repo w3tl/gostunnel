@@ -1,0 +1,29 @@
+IDI_ICON1 ICON "..\\gostunnel-gui\\images\\gostunnel.ico"
+1 VERSIONINFO
+FILEVERSION 1,0,1,1
+PRODUCTVERSION 1,0,1,1
+FILEOS 0x4
+FILETYPE 0x0
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "040904B0"
+    BEGIN
+      VALUE "CompanyName", "Dostovalov Vitaly"
+      VALUE "FileDescription", "GUI for gostunnel"
+      VALUE "FileVersion", "1,0,1,1"
+      VALUE "InternalName", "gostunnel-gui"
+      VALUE "LegalCopyright", "Copyright © 2014 Dostovalov Vitaly"
+      VALUE "OriginalFilename", "gostunnel-gui.exe"
+      VALUE "ProductName", "GOSTunnel-gui"
+      VALUE "ProductVersion", "1,0,1,1"
+    END
+  END 
+  
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 0x0419, 0x0409
+
+
+  END
+END

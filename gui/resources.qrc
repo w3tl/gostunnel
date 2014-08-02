@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>images/start.png</file>
+        <file>images/stop.png</file>
+        <file>images/error.png</file>
+        <file>images/restart.png</file>
+        <file>images/gostunnel.png</file>
+        <file>images/gostunnel64.png</file>
+    </qresource>
+</RCC>
